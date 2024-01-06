@@ -1,48 +1,37 @@
-fetch("https://api.publicapis.org/entries")
-    .then(function (response) {
-        response.json().then(function (data) {
+fetch("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
+    .then(function (response){
+        response.json().then(function (data){
             console.log(data);
-            let array = data.entries;
+            let array = data.data;
 
             let html = document.getElementById('PC05755');
+            let index =1;
 
             let child_html = `<table class="table">
-            <thead>
-            <tr>
-            <th scope="col">API</th>
-            <th scope="col">Description</th>
-            <th scope="col">Auth</th>
-            <th scope="col">HTTPS</th>
-            <th scope="col">Cors</th>
-            <th scope="col">Link</th>
-             <th scope="col">Category</th>
-            </tr>
-            </thead>
-            `
+                    <thead>
+                    <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nation</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Population</th>
+                    </tr>
+                    </thead>
+                    `
 
             array.forEach(element => {
                 console.log(element);
                 child_html += `<tbody>
-                <tr>
-                <td>${element.API}</td>
-                <td>${element.Description}</td>
-                <td>${element.Auth}</td>
-                <td>${element.HTTPS}</td>
-                <td>${element.Cors}</td>
-                <td>${element.Link}</td>
-                <td>${element.Category}</td>
-                </tr>
-                
-                </tbody>`
+                        <tr>
+                    <td>${index++}</td>
+                    <td>${element.Nation}</td>
+                    <td>${element.Year}</td>
+                    <td>${element.Population}</td>
+                        </tr>
+                        
+                        </tbody>`
             })
 
             child_html += `</table>`;
             html.innerHTML = child_html;
         })
-
     })
-
-    .catch(function (err) {
-        console.log(err);
-    })
-
