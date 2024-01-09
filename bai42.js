@@ -5,7 +5,7 @@ fetch("https://65929f4fbb129707198fe18e.mockapi.io/tinhpv10/students")
             let array = data;
 
             let html = document.getElementById('PC05755');
-
+            
             let child_html = `<table class="table">
             <thead>
             <tr>
@@ -29,7 +29,8 @@ fetch("https://65929f4fbb129707198fe18e.mockapi.io/tinhpv10/students")
                 
                 </tbody>`
             })
-
+        
+            
             child_html += `</table>`;
             html.innerHTML = child_html;
         })
