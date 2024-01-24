@@ -22,7 +22,7 @@ fetch(API_URL + 'products')
                     <div class="p-4 border border-secondary border-top-0 rounded-bottom">
                         <h4>${element.name}</h4>
                         <div class="d-flex justify-content-between flex-lg-wrap">
-                            <p class="text-dark fs-5 fw-bold mb-0">${element.price} /dong</p>
+                            <p class="text-dark fs-5 fw-bold mb-0">${element.price}đ</p>
                             <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                         </div>
                     </div>

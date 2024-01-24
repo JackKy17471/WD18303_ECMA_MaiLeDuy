@@ -24,8 +24,13 @@ fetch(API_URL + 'categories')
                 <tr>
                 <td>${element.id}</td>
                 <td>${element.name}</td>
-                <td><button>fix</button>
-                <button>delete</button>
+                <td>
+                <a href="#" class="btn btn-info btn-circle">
+                <i class="fas fa-info-circle"></i>
+                </a>
+                <a href="#" class="btn btn-danger btn-circle">
+                <i class="fas fa-trash"></i>
+                </a>
                 </td>
                 </tr>
                 
@@ -73,8 +78,13 @@ fetch(API_URL + 'categories')
                 <td>${element.product_id}</td>
                 <td>${element.quantity}</td>
                 <td>${element.unit_price}</td>
-                <td><button>fix</button>
-                <button>delete</button>
+                <td>
+                <a href="#" class="btn btn-info btn-circle">
+                <i class="fas fa-info-circle"></i>
+                </a>
+                <a href="#" class="btn btn-danger btn-circle">
+                <i class="fas fa-trash"></i>
+                </a>
                 </td>
                 </tr>
                 
@@ -130,8 +140,12 @@ fetch(API_URL + 'categories')
                 <td>${element.created_date}</td>
                 <td>${element.status}</td>
                 <td>
-                <button>fix</button>
-                <button>delete</button>
+                <a href="#" class="btn btn-info btn-circle">
+                <i class="fas fa-info-circle"></i>
+                </a>
+                <a href="#" class="btn btn-danger btn-circle">
+                <i class="fas fa-trash"></i>
+                </a>
                 </td>
                 </tr>
                 
