@@ -1,38 +1,16 @@
 
-
-
-
-
-class APICaller {
-    constructor(baseUrl) {
-        this.baseUrl = baseUrl;
-    }
-
-    async get(endpoint) {
-        const response = await fetch(`${this.baseUrl}/${endpoint}`);
-        const data = await response.json();
-        return data;
-    }
-}
-
-class CommentAPI extends APICaller {
-    constructor(baseUrl) {
-        super(baseUrl);
-        this.endpoint = 'comments';
-    }
-
-    async getAll() {
-        const comments = await this.get(this.endpoint);
-        return comments;
-    }
-
-    async getOne(cmId) {
-        const comment = await this.get(`${this.endpoint}/${cmId}`);
-        return comment;
-    }
-}
+import CommentAPI from './commentAPI.js';
 
 
 const apiCaller = new CommentAPI('http://localhost:3000');
-apiCaller.getAll().then(comments => console.log('tat ca comment', comments));
-apiCaller.getOne(1).then(comment => console.log('1 comment', comment));
+
+apiCaller.getAll().then(comments => console.log('all comment', comments));
+apiCaller.getOne(1).then(comment => console.log('one comment', comment));
+// const newComment = { 
+// text: "a comment about post 1",
+// postId: "1"
+//  };
+// apiCaller.create(newComment).then(createdComment => console.log('Bình luận mới', createdComment));
+// const updatedComment = { text: 'updated' };
+// apiCaller.update(3, updatedComment).then(updated => console.log('comment updated:', updated));
+// apiCaller.delete(6).then(deletedComment => console.log('comment deleted:', deletedComment));
