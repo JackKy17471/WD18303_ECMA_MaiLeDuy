@@ -20,105 +20,86 @@
       "id": "5",
       "name": "Narciso"
     }
-    
   ],
   "products": [
     {
-      "id": "1",
-      "name": "Nước Hoa Nam Bvlgari Man In Black EDP 150ml",
-      "cate_id": "1",
-      "price": 1950000,
-      "detail": "Bvlgari kỷ niệm 130 năm thành lập của mình bằng cách cho ra đời một chai nước hoa mới với tên gọi Bvlgari Man In Black, là một người đàn ông khác so với bản gốc Bvlgari Man từ năm 2010. Man in Black được hãng BVL tuyên bố là một mùi hương Nam tính, táo bạo và  lôi cuốn, được lấy cảm hứng từ câu chuyện đầy li kỳ về sự ra đời của Vulcan, vị thần của trái đất. Mở đầu mùi hương bằng việc mix Gia vị, thuốc lá và Rượu Rum có lẽ là một cách thức táo bạo nhất mà chuyên gia nước hoa Alberto Morillas đã từng làm, đó là sự nam tính, trầm tĩnh, như thể định nghĩa nó là một mùi hương hoàn toàn danh cho phái mạnh vậy. Da thuộc cùng sự nhẹ nhàng của Hoa diễn vĩ nằm ở hương giữa, tạo khoảng không gian nhẹ nhàng, thư thái, trước khi kết thúc bằng hương Gỗ Guaiac và Đậu tonka. Bvlgari Man In Black là một người đàn ông điển hình cho sự trưởng thành, thành đạt và hấp dẫn, mang trong mình nhiều suy nghĩ của một kẻ đầy tham vọng, dám nghĩ, dám làm. ",
-      "image": "img/hinh2.jpg"
-    },
-    {
       "id": "2",
       "name": "Nước Hoa Nữ Bvlgari Splendida Jasmin Noir EDP 5ml",
-      "cate_id": "1",
-      "price": 285000,
+      "price": "285001",
       "detail": "Nếu bạn đang tìm kiếm một hương thơm gợi cảm, độc lập tạo độ cuốn hút nhất thì Splendida Jasmin Noir Bvlgari chắc chắn sẽ là siêu phẩm nước hoa đó. Mới ra mắt trong giữa năm 2017, thuộc nhóm hương hoa cỏ thơm ngát dịu êm.",
-      "image": "img/hinh1.jpg"
+      "image": "hinh1.jpg"
     },
     {
       "id": "3",
       "name": "Nước hoa nữ cao cấp Chanel Chance 100ml Hồng",
-      "cate_id": "2",
-      "price": 140000,
+      "price": "140000",
       "detail": "Nước hoa Chanel Chance Eau Tendre EDP 100ml phiên bản màu hồng là dòng sản phẩm thế hệ thứ 3 của dòng nước hoa Chanel Chance, một sản phẩm rất được ưa chuộng suốt từ 2010. Sản phẩm được sáng tạo bởi chuyên gia Jacques Polge và người đại diện là một người mẫu nổi tiếng người Pháp Sigrid Agren.",
-      "image": "img/hinh3.jpg"
+      "image": "hinh2.jpg"
     },
     {
       "id": "4",
       "name": "Chanel Coco Mademoiselle L'Eau Privée - Night Fragrance",
-      "cate_id": "2",
-      "price": 3650000,
+      "price": "3650000",
       "detail": "Vẫn là cô, vẫn là vẻ đẹp quyến luyến tuyệt phần nay càng thêm quyến rũ khi trút bỏ tấm vải lụa trên người đi. Giờ đây với vẻ trần trụi và bộc bạch, không giấu giếm, Coco Mademoiselle L’Eau Privee Chanel như mảnh nam châm ẩn mình dưới những cánh hoa hồng, ngát hương và cực kỳ thu hút.",
-      "image": "img/hinh4.jpg"
+      "image": "hinh3.jpg"
     },
     {
       "id": "5",
       "name": "Nước Hoa Giorgio Armani Acqua di Giò Absolu EDP 75ML",
-      "cate_id": "3",
-      "price": 1999000,
+      "price": "1999000",
       "detail": "Giorgio Armani Acqua di Giò Absolu được review là thơm nhất so với các phiên bản Giò trước đây. Khác với bản Giò trắng, Absolu mang đến một hương thơm tươi mát, bóng bẩy vô cùng xanh mướt của đại dương mênh mông cùng chút ngọt ngào. Bên cạnh đó là chút dư vị thanh khiết, hấp dẫn thể hiện đúng bản lĩnh của người đàn ông sôi nổi, nhiệt tình và hấp dẫn vô cùng",
-      "image": "img/hinh5.jpg"
+      "image": "hinh4.jpg"
     },
     {
       "id": "6",
       "name": "Nước Hoa Giorgio Armani Acqua Di Gio Pour Homme 100ML",
-      "cate_id": "3",
-      "price": 1599000,
+      "price": "1599000",
       "detail": "Một mùi hương nam tính sinh ra từ những gì tinh túy nhất của biển khơi, ánh mặt trời, đất mẹ và những cơn gió lồng lộng của những hòn đảo miền biển Địa Trung Hải.Đây là một mùi hương của sự tự do, đầy gió và nước ,sự hòa hợp hoàn hảo giữa mùi hương ngọt mặn của nước biển và ánh nắng ấm áp mơn trớn trên làn da của bạn.",
-      "image": "img/hinh6.jpg"
+      "image": "hinh5.jpg"
     },
     {
       "id": "7",
       "name": "Nước Hoa Lancome Miracle EDP 100ML",
-      "cate_id": "4",
-      "price": 1999000,
+      "price": "1999000",
       "detail": "Nước hoa Lancome Miracle được ra mắt năm 2002 được đồng sáng tạo bởi Harry Fremont và Alberto Morillas. Miracle mang âm hưởng hương thơm phương Đông hiện đại khởi đầu từ hương vải; điểm gia vị nhẹ nhàng ở lớp hương giữa và kết thúc mạnh mẽ bằng xạ hương và hổ phách. Miracle có thể được phác họa chính xác qua hai từ: tràn đầy năng lượng và sự khám phá.",
-      "image": "img/hinh7.jpg"
+      "image": "hinh6.jpg"
     },
     {
       "id": "8",
       "name": "Nước Hoa Lancome Idole Now EDP 100ML",
-      "cate_id": "4",
-      "price": 2599000,
+      "price": "2599000",
       "detail": "Nước hoa Lancome Idole Now EDP là phiên bản mới nhất của dòng nước hoa Idole đình đám của thương hiệu Lancome. Sản phẩm mang đến hương thơm tươi mới, quyến rũ, giúp tôn lên vẻ đẹp tự tin, hiện đại của người phụ nữ.",
-      "image": "img/hinh8.jpg"
+      "image": "hinh7.jpg"
     },
     {
       "id": "9",
       "name": "Nước Hoa Narciso Rodriguez Pure Musc For Her EDP 50ML",
-      "cate_id": "5",
-      "price": 1850000,
+      "price": "1850000",
       "detail": " Pure Musc là dòng nước hoa mới toanh của thương hiệu đình đám Narciso Rodriguez, được ra mắt trong năm 2019. Mùi hương này được lấy cảm hứng từ vẻ đẹp thuần khiết, thanh tao của người mẫu Julia Bergshoeff. Thành phần hương chính của Pure Musc là mùi xạ hương và hoa.",
-      "image": "img/hinh10.jpg"
+      "image": "hinh8.jpg"
     },
     {
       "id": "10",
       "name": "Nước Hoa Narciso Rodriguez For Her EDP 100ML",
-      "cate_id": "5",
-      "price": 1850000,
+      "price": "1850000",
       "detail": "Nước hoa Narciso Rodriguez for Her mùi hương đầy quyến rũ và nữ tính với những cánh hoa hồng rực rỡ, hương thơm đào tươi mát, xen lẫn với chút hổ phách tinh tế và đặc biệt là một mùi xạ hương gợi cảm đầy nổi bật. Với Narciso Rodriguez for Her chỉ khi đến gần hít hà mới thực sự cảm nhận được sự hấp dẫn bản năng bện chặt mọi tâm trí, làm người ta muốn yêu thương, muốn chạm vào, muốn vuốt ve.",
-      "image": "img/hinh9.jpg"
+      "image": "hinh11.jpg"
     },
     {
       "id": "11",
       "name": "Armaf Club de Nuit Intense Man",
-      "cate_id": "1",
-      "price": 1150000,
+      "price": "1150000",
       "detail": "Armaf Club de Nuit Intense là một chàng trai biết tận dụng sự tươi mới, trẻ trung và đôi khi bí ẩn của mình để tạo nên sự cuốn hút khiến đối phương trở nên chìm đắm trong chính câu chuyện của hai người.",
-      "image": "img/hinh11.jpg"
+      "image": "hinh12.jpg"
     },
     {
       "id": "12",
       "name": "Armaf Club De Nuit Women",
-      "cate_id": "1",
-      "price": 1150000,
+      "price": "1150000",
       "detail": "Tình yêu nào cũng cần phải có sự tự do nên Armaf đã đem mùi thơm của Cỏ hương bài, Xạ hương, Hoắc hương và Hương vanilla hóa ra một không gian trải đầy màu xanh để tình yêu cảm nhận được điều đó.",
-      "image": "img/hinh12.jpg"
+      "image": "hinh10.jpg"
     }
+    
   ],
   "orders": [
     {

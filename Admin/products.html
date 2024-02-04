@@ -133,6 +133,7 @@
             <!-- Nav Item - Tables -->
 
 
+
             <li class="nav-item active">
                 <a class="nav-link" href="tables.html">
                     <!-- <i class="fas fa-fw fa-table"></i> -->
@@ -160,6 +161,11 @@
             
             <!-- Nav Item - Pages Collapse Menu -->
             
+            <!-- Divider -->
+           
+
+           
+           
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
@@ -383,33 +389,19 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
-                            href="https://datatables.net">official DataTables documentation</a>.</p>
+                    <h1 class="h3 mb-2 text-gray-800">Products</h1>
+                   
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                          
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <a href="add-categories.html"><button type="button" class="btn btn-primary">Thêm
-                                        Mới</button></a>
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <table class="table">
-                                        <!-- <thead>
-                                            <tr>
-                                                <th scope="col">id</th>
-                                                <th scope="col">name</th>
-                                                <th scope="col">action</th>
-                                            </tr>
-                                        </thead> -->
-
-
-
-                                    </table>
+                                <a href="add.html"><button type="button" class="btn btn-primary">Add New</button></a>
+                                <table class="table table-bordered" id="products" width="100%" cellspacing="0">
+                                    
                             </div>
                         </div>
                     </div>
@@ -420,15 +412,7 @@
             </div>
             <!-- End of Main Content -->
 
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
+          
 
         </div>
         <!-- End of Content Wrapper -->
@@ -476,6 +460,7 @@
     <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <!-- Page level custom scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/demo/datatables-demo.js"></script>
 
