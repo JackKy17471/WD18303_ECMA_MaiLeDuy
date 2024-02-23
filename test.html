@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+        </header>
+        <main>
+            <div
+                class="table-responsive"
+            >
+                <table
+                    class="table table-primary"
+                >
+                    <thead>
+                        <tr>
+                            <th scope="col">Column 1</th>
+                            <th scope="col">Column 2</th>
+                            <th scope="col">Column 3</th>
+                            <th scope="col">Column 4</th>
+                            <th scope="col">Column 5</th>
+                            <th scope="col">Column 6</th>
+                            <th scope="col">Column 7</th>
+                            <th scope="col">Column 8</th>
+                            <th scope="col">Column 9</th>
+                            <th scope="col">Column 10</th>
+                            <th scope="col">Column 11</th>
+                        </tr>
+                    </thead>
+                    <tbody id="list">
+                        <!-- <tr class="">
+                            <td scope="row">R1C1</td>
+                            <td>R1C2</td>
+                            <td>R1C3</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Item</td>
+                            <td>Item</td>
+                            <td>Item</td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+            
+<div class="container" style="width: 500px; margin-left: 300px;">
+    <!-- event.preventDefault(); -->
+    <form action="" id="list" onsubmit=" createOrUpdateUser(event)">
+        <div class="mb3">
+           
+            
+            <div class="form-group">
+                <input type="hidden" name="id" id="id">
+
+                <label for="">name</label>
+                <input type="text" name="fullname" id="fullname" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">email</label>
+                <input type="email" name="email" id="email" class="form-control">
+            </div>
+           
+            <div class="form-group">
+                <label for="">username</label>
+                <input type="text" name="username" id="username" class="form-control" >
+            </div>
+            <div class="form-group">
+                <label for="">password</label>
+                <input type="password" name="password" id="password"  class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">gender</label>
+                <input type="text" name="gender" id="gender"  class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">birthday</label>
+                <input type="date" name="birthday" id="birthday" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">schoolfee</label>
+                <input type="number" name="schoolfee" id="schoolfee" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">marks</label>
+                <input type="number" name="marks" id="marks" class="form-control">
+            </div>
+            
+           
+            <button class="btn btn-primary" type="submit" style="margin-top: 5px; margin-left: 230px;">them</button>
+        </div>
+    </form>
+
+</div>
+
+        
+            
+            <!-- form#list>.mb3>.form-group>label+input.form-control
+
+
+            .container>form#formUser>.row>col-lg-6*3>.mb-3.form-group>label+input.form-control -->
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+        <script src="app.js"></script>
+    </body>
+</html>
