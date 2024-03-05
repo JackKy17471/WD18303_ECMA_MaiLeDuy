@@ -93,13 +93,19 @@
       "image": "hinh12.jpg"
     },
     {
-      "id": "12",
-      "name": "Armaf Club De Nuit Women",
-      "price": "1150000",
-      "detail": "Tình yêu nào cũng cần phải có sự tự do nên Armaf đã đem mùi thơm của Cỏ hương bài, Xạ hương, Hoắc hương và Hương vanilla hóa ra một không gian trải đầy màu xanh để tình yêu cảm nhận được điều đó.",
-      "image": "hinh10.jpg"
+      "id": {},
+      "name": "Nước Hoa Nữ Bvlgari Splendida Jasmin Noir EDP 5ml111",
+      "price": "213",
+      "detail": "12313",
+      "image": "hinh11.jpg"
+    },
+    {
+      "id": "123",
+      "name": "12123",
+      "price": "123321",
+      "detail": "1231313111",
+      "image": "hinh12.jpg"
     }
-    
   ],
   "orders": [
     {

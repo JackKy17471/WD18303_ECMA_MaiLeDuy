@@ -181,7 +181,7 @@ list_cate();
             <tr>
             <th scope="col">Id</th>
             <th scope="col">Name</th>
-            <th scope="col">Category</th>
+            
             <th scope="col">Price</th>
             <th scope="col">detail</th>
             <th scope="col">image</th>
@@ -196,7 +196,7 @@ list_cate();
                 <tr>
                 <td>${element.id}</td>
                 <td>${element.name}</td>
-                <td>${element.cate_id}</td>
+                
                 <td>${element.price}</td>
                 <td>${element.detail}</td>
                 <td><img src="./img/${element.image}  " width="100px"></td>
@@ -220,14 +220,29 @@ list_cate();
   
  }
  list();
-function deleteProduct(id) {
-  axios.delete(API_URL+ 'products/' + id)
-  list ()
+ function deleteProduct(id) {
+    const confirmDelete = confirm("Are you sure you want to delete this product?");
+    
+    if (!confirmDelete) {
+        return;
+    }
+
+    axios.delete(API_URL + 'products/' + id)
+        .then(() => {
+            alert("Product deleted successfully!"); // Add this line for delete success notification
+            list();
+        })
+        .catch((error) => {
+            console.error('Error deleting product:', error.message);
+        });
 }
+
 
 function updateProduct(id){
     localStorage.setItem("id-sp",id)
+    
     window.location = "update.html"
   }
 
- 
+  const id = localStorage.getItem('id-sp');
+
